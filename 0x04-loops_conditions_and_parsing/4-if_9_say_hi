@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#prints hello world until 9th iteration
+count=0
+while [ $count -lt 9 ]
+do
+	echo "Best School"
+	count=$((count + 1))
+	if [ $count == 8 ]
+	then
+		echo "Hi"
+	fi
+done
