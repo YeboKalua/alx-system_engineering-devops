@@ -11,5 +11,7 @@ do
 	elif [ $count == 6 ]
 	then
 		echo "good luck"
+	else
+		continue
 	fi
 done		
