@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# show bash pid
+script_pid=$$
+pgrep -af bash | while read -r pid pname;
+do
+	if [ "$pid" != "$script_pid" ];
+	then
+		echo "$pid $pname"
+	fi
+done
