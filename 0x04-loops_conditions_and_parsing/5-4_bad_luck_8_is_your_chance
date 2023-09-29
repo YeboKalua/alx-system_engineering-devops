@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#iterates from 0 to 1 and echos differently
+count=0
+while [ $count -lt 10 ]
+do
+	if [ $count == 3 ]
+	then
+		echo "bad luck"
+	elif [ $count == 7 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+done		
