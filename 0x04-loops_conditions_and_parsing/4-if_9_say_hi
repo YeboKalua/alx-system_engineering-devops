@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #prints hello world until 9th iteration
 count=0
-while [ $count -lt 9 ]
+while [ $count -lt 10 ]
 do
 	echo "Best School"
 	count=$((count + 1))
-	if [ $count == 8 ]
+	if [ $count == 9 ]
 	then
 		echo "Hi"
 	fi
