@@ -1,3 +1,11 @@
 #!/usr/bin/env bash
 # kill a process
-kill 7-highlander
+if pgrep -x "7-highlander" > /dev/null
+then
+    # Kill the process
+    pkill -x "7-highlander"
+    echo "Killed 7-highlander"
+else
+    echo "7-highlander is not running"
+fi
+
