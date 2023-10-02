@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # displays minutes and hours
 hour=0
-while [ $hour -lt 12 ];
+while [ $hour -le 12 ];
 do
 	echo "Hour: $hour"
 	i=1
