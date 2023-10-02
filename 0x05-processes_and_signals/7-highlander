@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# kill and handle signal
+trap 'echo "I am invincible!!!"; exit' SIGTERM
+while :
+do
+    echo "To infinity and beyond indefinitely"
+    sleep 2
+done
