@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#configuration file
+Host server01
+  HostName server01
+  User ubuntu
+  IdentityFile ~/.ssh/school
